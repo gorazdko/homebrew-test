@@ -1,8 +1,8 @@
 class SeedtoolCli < Formula
   desc "Cryptographic Seed Tool for the command line"
   homepage "https://github.com/BlockchainCommons/seedtool-cli"
-  url "https://github.com/BlockchainCommons/seedtool-cli/archive/refs/tags/0.4.tar.gz"
-  sha256 "3986cf1b738cce09ae6d5f13e7986753e427403a9b0176684030d874814cf108"
+  url "https://github.com/BlockchainCommons/seedtool-cli/archive/refs/tags/0.9.0.tar.gz"
+  sha256 "a7f00a20eebe6abafd1db5305a9bd699a2a8e72497941f9be027a85f8489384d"
   license "https://github.com/BlockchainCommons/seedtool-cli/blob/master/LICENSE"
 
   # depends_on "cmake" => :build    
