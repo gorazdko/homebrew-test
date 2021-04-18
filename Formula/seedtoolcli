@@ -5,7 +5,8 @@ class SeedtoolCli < Formula
   sha256 "a7f00a20eebe6abafd1db5305a9bd699a2a8e72497941f9be027a85f8489384d"
   license "https://github.com/BlockchainCommons/seedtool-cli/blob/master/LICENSE"
 
-  # depends_on "cmake" => :build    
+  # depends_on "cmake" => :build   
+  depends_on "git" => :build
   depends_on "autoconf" => :build
   depends_on "automake" => :build
   depends_on "libtool" => :build
