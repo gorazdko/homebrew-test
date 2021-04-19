@@ -1,5 +1,5 @@
 cask "testcask" do
-  version ""
+  version "v1.0"
   sha256 :no_check
 
   url "https://github.com/gorazdko/homebrew-test2/files/6338995/seedtool.zip"
