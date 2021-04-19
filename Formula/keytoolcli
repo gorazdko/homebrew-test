@@ -1,0 +1,15 @@
+class KeytoolCli < Formula
+  desc "Cryptocurrency key & address derivation for the command line"
+  homepage ""
+  url "https://github.com/BlockchainCommons/keytool-cli/archive/refs/tags/0.6.0.tar.gz"
+  sha256 "852390b0367a2eb109a254ecc5155a57ac036f2d7543a0a01e338fdc2378640d"
+  license "NOASSERTION"
+
+  # depends_on "cmake" => :build
+
+  def install
+    # ENV.deparallelize  # if your formula fails when building in parallel
+    # Remove unrecognized options if warned by configure
+    # https://rubydoc.brew.sh/Formula.html#std_configure_args-instance_method
+    system "./configure", *std_configure_args, "--disable-silent-rules"
+    # system "cmake", "-S", ".", "-B", "build", *std_cmake_args
