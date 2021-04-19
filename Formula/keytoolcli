@@ -8,10 +8,10 @@ class KeytoolCli < Formula
   license "MIT"
 
   # depends_on "cmake" => :build   
-  depends_on "git" => :build
-  depends_on "autoconf" => :build
-  depends_on "automake" => :build
-  depends_on "libtool" => :build
+  #depends_on "git" => :build
+  #depends_on "autoconf" => :build
+  #depends_on "automake" => :build
+  #depends_on "libtool" => :build
 
   def install
     #system "sh", "./build.sh"
