@@ -1,10 +1,11 @@
 class KeytoolCli < Formula
   desc "Cryptocurrency key & address derivation for the command line"
-  homepage ""
-  url "https://github.com/BlockchainCommons/keytool-cli.git"
-  tag "51443b2b6af879446d9ccb5767769070c85b7974"
+  homepage "https://github.com/BlockchainCommons"
+  url "https://github.com/BlockchainCommons/keytool-cli.git",
+    tag: "0.6.0"
+    revision: "51443b2b6af879446d9ccb5767769070c85b7974"
   sha256 "852390b0367a2eb109a254ecc5155a57ac036f2d7543a0a01e338fdc2378640d"
-  license "NOASSERTION"
+  license "MIT"
 
   # depends_on "cmake" => :build   
   depends_on "git" => :build
