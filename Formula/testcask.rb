@@ -1,6 +1,6 @@
 cask "testcask" do
   version ""
-  sha256 ""
+  sha256 :no_check
 
   url "download-url"
   name ""
