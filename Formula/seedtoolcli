@@ -17,6 +17,8 @@ class SeedtoolCli < Formula
     # https://rubydoc.brew.sh/Formula.html#std_configure_args-instance_method
     system "./build.sh"
     
+    system "sh", "./build.sh"
+    
     system "make",
            "install"
   end
