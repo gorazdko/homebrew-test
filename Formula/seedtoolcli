@@ -16,7 +16,7 @@ class SeedtoolCli < Formula
   depends_on "libtool" => :build
 
   def install
-    system "sh", "./build.sh"
+    #system "sh", "./build.sh"
     
     system "make",
            "install"
