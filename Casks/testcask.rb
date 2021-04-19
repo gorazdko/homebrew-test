@@ -6,4 +6,5 @@ cask "testcask" do
   name "seedtool"
   desc "seedtool"
   homepage "https://github.com/gorazdko/homebrew-test2"
+  app "seedtool.app"
 end
