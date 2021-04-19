@@ -1,7 +1,11 @@
 class SeedtoolCli < Formula
   desc "Cryptographic Seed Tool for the command line"
   homepage "https://github.com/BlockchainCommons/seedtool-cli"
-  url "https://github.com/BlockchainCommons/seedtool-cli/archive/refs/tags/0.9.0.tar.gz"
+  #url "https://github.com/BlockchainCommons/seedtool-cli/archive/refs/tags/0.9.0.tar.gz"
+  url "https://github.com/BlockchainCommons/seedtool-cli.git",
+    tag:      "0.9.0",
+    revision: "7a62535387bc23e3169cd048ccf48d1d51873be6"
+  
   sha256 "a7f00a20eebe6abafd1db5305a9bd699a2a8e72497941f9be027a85f8489384d"
   license "https://github.com/BlockchainCommons/seedtool-cli/blob/master/LICENSE"
 
